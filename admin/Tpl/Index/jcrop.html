@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jcrop剪裁图片</title>
+<link rel="stylesheet" href="{$Think.APP_TMPL_PATH}/Index/css/common.css" type="text/css" />
+<link rel="stylesheet" href="{$Think.APP_TMPL_PATH}/Index/css/jquery.Jcrop.css" type="text/css" />
+<script type="text/javascript" src="{$Think.PUBLICPATH}/js/jquery-1.3.2-min.js"></script>
+<script type="text/javascript" src="{$Think.PUBLICPATH}/js/jquery.Jcrop.js"></script>
+<script src="{$Think.PUBLICPATH}/artDialog4.1.6/artDialog.js"></script>
+<link href="{$Think.PUBLICPATH}/artDialog4.1.6/skins/black.css" rel="stylesheet" type="text/css" />
+<script src="{$Think.PUBLICPATH}/artDialog4.1.6/plugins/iframeTools.source.js"></script>
+<style type="text/css">
+.crop_preview{position:absolute; left:420px; top:0;width:300px;height:150px; overflow:hidden;}
+#cropbox{max-width:400px}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//记得放在jQuery(window).load(...)内调用，否则Jcrop无法正确初始化
+		$("#cropbox").Jcrop({
+			onChange:showCoords,
+			onSelect:showCoords
+		});	
+		//简单的事件处理程序，响应自onChange,onSelect事件，按照上面的Jcrop调用
+		function showCoords(obj){
+			$("#x").val(obj.x);
+			$("#y").val(obj.y);
+			$("#w").val(obj.w);
+			$("#h").val(obj.h);
+			if(parseInt(obj.w) > 0){
+				//计算预览区域图片缩放的比例，通过计算显示区域的宽度(与高度)与剪裁的宽度(与高度)之比得到
+				var rx =$("#preview_box").width() / obj.w; 
+				var ry =$("#preview_box").height() / obj.h;
+				
+				$("#cropw").val($("#cropbox").width());
+				$("#croph").val($("#cropbox").height());
+				$("#preview_box").css({width:obj.w,height:obj.h});
+				//通过比例值控制图片的样式与显示
+				$("#crop_preview").css({
+					width:Math.round(rx * $("#cropbox").width()) + "px",	//预览图片宽度为计算比例值与原图片宽度的乘积
+					height:Math.round(rx * $("#cropbox").height()) + "px",	//预览图片高度为计算比例值与原图片高度的乘积
+					marginLeft:"-" + Math.round(rx * obj.x) + "px",
+					marginTop:"-" + Math.round(ry * obj.y) + "px"
+				});
+			}
+		}
+		
+		$("#crop_submit").click(function(){
+
+			if(parseInt($("#x").val())){
+				$("#crop_form").submit();	
+				close();
+			}else{
+				alert("要先在图片上划一个选区再单击确认剪裁的按钮哦！");	
+			}
+		});
+	});
+</script>
+</head>
+
+<body>
+<div class="out_box">
+    <div class="in_box">
+        <h1 class="title">剪裁图片</h1>
+        <div class="main_con">
+        	<div class="test_list">
+                <div class="rel mb20">
+                	<img id="cropbox" src="__ROOT__/uploads/{$path}" />
+                    <span id="preview_box" class="crop_preview"><img id="crop_preview" src="__ROOT__/uploads/{$path}" /></span>
+                </div>
+                <form action="__APP__/Index/crop" method="post" id="crop_form">
+                    <input type="hidden" id="x" name="x" />
+                    <input type="hidden" id="y" name="y" />
+                    <input type="hidden" id="w" name="w" />
+                    <input type="hidden" id="h" name="h" />
+                    <input type="hidden" id="cropw" name="cropw" />
+                    <input type="hidden" id="croph" name="croph" />
+                    <input type="hidden" id="cropimg" name="cropimg" value="__ROOT__/uploads/{$path}"/>
+                   <!-- <input type="button" value="确认剪裁" id="crop_submit" />-->
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

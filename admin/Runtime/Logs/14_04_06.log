@@ -1,0 +1,203 @@
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.002285s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.026934s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001349s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000936s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002396s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.011588s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.011716s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.033251s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.033367s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000978s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000853s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000591s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000895s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.003483s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000819s ]
+[ 2014-04-06T11:53:18+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000875s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run CheckRoute Behavior [ RunTime:0.000712s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000805s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000486s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000373s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000943s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | SQL: SHOW COLUMNS FROM `zz_user` [ RunTime:0.021157s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | SQL: SHOW COLUMNS FROM `zz_stu` [ RunTime:0.004950s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | SQL: SELECT * FROM `zz_user` WHERE username='admin' LIMIT 1   [ RunTime:0.000358s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000821s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000886s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000943s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001001s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ContentReplace Behavior [ RunTime:0.000447s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run TokenBuild Behavior [ RunTime:0.000505s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000356s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000588s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002108s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000552s ]
+[ 2014-04-06T11:53:31+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000634s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run CheckRoute Behavior [ RunTime:0.000650s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000737s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000454s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000373s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000911s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.059500s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_conf` WHERE conf_name='THEME' LIMIT 1   [ RunTime:0.000357s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_conf` WHERE conf_name='THEME' LIMIT 1   [ RunTime:0.000178s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | SQL: SHOW COLUMNS FROM `zz_notice` [ RunTime:0.041620s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_notice` ORDER BY id desc LIMIT 10   [ RunTime:0.000392s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run LocationTemplate Behavior [ RunTime:0.017655s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.017755s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: username 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: lasttime 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: count 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: flag 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ParseTemplate Behavior [ RunTime:0.020501s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.020572s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ContentReplace Behavior [ RunTime:0.000530s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run TokenBuild Behavior [ RunTime:0.000381s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000243s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000421s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001726s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000411s ]
+[ 2014-04-06T11:53:32+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000474s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run CheckRoute Behavior [ RunTime:0.000968s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001062s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000654s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000840s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001676s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SHOW COLUMNS FROM `zz_lab` [ RunTime:0.049092s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SHOW COLUMNS FROM `zz_college` [ RunTime:0.050610s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SELECT lab.id AS id,lab.labno AS labno,lab.labname AS labname,lab.labinfo AS labinfo,college.id AS collegeid,college.collegename AS collegename FROM zz_lab lab  JOIN zz_college college ON lab.college=college.id  [ RunTime:0.000489s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.003747s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000272s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000179s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | SQL: SELECT lab.id AS id,lab.labno AS labno,lab.labname AS labname,lab.labinfo AS labinfo,college.collegename AS collegename FROM zz_lab lab  JOIN zz_college college ON lab.college=college.id ORDER BY lab.id desc LIMIT 0,10   [ RunTime:0.000505s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: self1 BaseAction.class.php 第 280 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: self2 BaseAction.class.php 第 291 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: self3 BaseAction.class.php 第 302 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: loanreturn BaseAction.class.php 第 313 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: lookgrade BaseAction.class.php 第 319 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: addgrade BaseAction.class.php 第 326 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: add BaseAction.class.php 第 333 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: return BaseAction.class.php 第 339 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: dl BaseAction.class.php 第 346 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: look BaseAction.class.php 第 352 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined index: ok BaseAction.class.php 第 367 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001246s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001325s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run ParseTemplate Behavior [ RunTime:0.028624s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.028688s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run ContentReplace Behavior [ RunTime:0.000753s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run TokenBuild Behavior [ RunTime:0.000524s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000356s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000547s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002336s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000625s ]
+[ 2014-04-06T11:53:42+08:00 ] /zzadmin/admin.php/Lab/showlab | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000710s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run CheckRoute Behavior [ RunTime:0.001437s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001583s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000936s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000768s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001879s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.005775s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_sex` [ RunTime:0.005291s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_job` [ RunTime:0.004946s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_major` [ RunTime:0.005106s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_title` [ RunTime:0.005250s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_college` [ RunTime:0.007739s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SELECT staff.id AS id,staff.no AS no,staff.name AS name,staff.sex AS sex,staff.birth AS birth,sex.id AS sexid,sex.sexname AS sexname,job.id AS jobid,job.jobname AS jobname,major.id AS majorid,major.majorname AS majorname,title.id AS titleid,title.titlename AS titlename,college.id AS collegeid,college.collegename AS collegename FROM zz_staff staff  JOIN zz_sex sex ON staff.sex=sex.id  JOIN zz_job job ON staff.job=job.id  JOIN zz_major major ON staff.major=major.id  JOIN zz_title title ON staff.title=title.id  JOIN zz_college college ON staff.college=college.id  [ RunTime:0.001069s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.005649s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000472s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000304s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | SQL: SELECT staff.id AS id,staff.no AS no,staff.name AS name,staff.birth AS birth,sex.sexname AS sexname,job.jobname AS jobname,major.majorname AS majorname,title.titlename AS titlename,college.collegename AS collegename FROM zz_staff staff  JOIN zz_sex sex ON staff.sex=sex.id  JOIN zz_job job ON staff.job=job.id  JOIN zz_major major ON staff.major=major.id  JOIN zz_title title ON staff.title=title.id  JOIN zz_college college ON staff.college=college.id ORDER BY staff.id desc LIMIT 0,10   [ RunTime:0.000991s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: self1 BaseAction.class.php 第 280 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: self2 BaseAction.class.php 第 291 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: self3 BaseAction.class.php 第 302 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: loanreturn BaseAction.class.php 第 313 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: lookgrade BaseAction.class.php 第 319 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: addgrade BaseAction.class.php 第 326 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: add BaseAction.class.php 第 333 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: return BaseAction.class.php 第 339 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: dl BaseAction.class.php 第 346 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: look BaseAction.class.php 第 352 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined index: ok BaseAction.class.php 第 367 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001421s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001545s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run ParseTemplate Behavior [ RunTime:0.003865s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.003974s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run ContentReplace Behavior [ RunTime:0.001587s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run TokenBuild Behavior [ RunTime:0.000983s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.001464s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000963s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.005394s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.001050s ]
+[ 2014-04-06T11:53:46+08:00 ] /zzadmin/admin.php/Staff/showstaff | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.001191s ]

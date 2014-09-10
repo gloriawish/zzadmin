@@ -1,0 +1,587 @@
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.002268s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002429s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001538s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.001219s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002942s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.014001s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.014118s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.011320s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.011434s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.001064s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.001159s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000783s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000951s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.004160s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000924s ]
+[ 2014-04-26T11:37:28+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000979s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run CheckRoute Behavior [ RunTime:0.000662s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000752s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000446s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000374s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000903s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | SQL: SHOW COLUMNS FROM `zz_user` [ RunTime:0.004116s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | SQL: SHOW COLUMNS FROM `zz_stu` [ RunTime:0.003874s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | SQL: SELECT * FROM `zz_user` WHERE username='zhang' LIMIT 1   [ RunTime:0.000374s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run LocationTemplate Behavior [ RunTime:0.007666s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.007762s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ParseTemplate Behavior [ RunTime:0.011166s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.011286s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ContentReplace Behavior [ RunTime:0.000606s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run TokenBuild Behavior [ RunTime:0.000421s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000472s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001975s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000453s ]
+[ 2014-04-26T11:37:33+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000506s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run CheckRoute Behavior [ RunTime:0.000785s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000869s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000495s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000383s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000967s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.004183s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_conf` WHERE conf_name='THEME' LIMIT 1   [ RunTime:0.000403s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SHOW COLUMNS FROM `zz_user` [ RunTime:0.004260s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_user` WHERE username='zhang' LIMIT 1   [ RunTime:0.000477s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_conf` WHERE conf_name='THEME' LIMIT 1   [ RunTime:0.000343s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SHOW COLUMNS FROM `zz_notice` [ RunTime:0.004433s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_notice` ORDER BY id desc LIMIT 10   [ RunTime:0.001248s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000780s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000849s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: username 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: lasttime 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: count 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: flag 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ParseTemplate Behavior [ RunTime:0.021164s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.021230s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ContentReplace Behavior [ RunTime:0.000546s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run TokenBuild Behavior [ RunTime:0.000374s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000246s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000424s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001738s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000420s ]
+[ 2014-04-26T11:37:34+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000488s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run CheckRoute Behavior [ RunTime:0.001996s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002129s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000526s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001242s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.004103s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT * FROM `zz_consuminfo`  [ RunTime:0.000337s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.004046s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000512s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000424s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT `id`,`cno`,`cname`,`prickle`,`brand` FROM `zz_consuminfo` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000485s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: self1 BaseAction.class.php 第 280 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: self2 BaseAction.class.php 第 291 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: self3 BaseAction.class.php 第 302 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: loanreturn BaseAction.class.php 第 313 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: lookgrade BaseAction.class.php 第 319 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: addgrade BaseAction.class.php 第 326 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: add BaseAction.class.php 第 333 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: return BaseAction.class.php 第 339 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: dl BaseAction.class.php 第 346 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: look BaseAction.class.php 第 352 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: ok BaseAction.class.php 第 367 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001173s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001265s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001816s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001866s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ContentReplace Behavior [ RunTime:0.000597s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run TokenBuild Behavior [ RunTime:0.000531s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000454s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000575s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002308s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000577s ]
+[ 2014-04-26T11:37:37+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000642s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run CheckRoute Behavior [ RunTime:0.000960s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001048s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000569s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000502s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001154s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_consumable` [ RunTime:0.004262s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.004477s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_lab` [ RunTime:0.003720s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.003759s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_college` [ RunTime:0.003982s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT consumable.id AS id,consumable.cid AS cid,consumable.reserve AS reserve,consumable.sum AS sum,consumable.college AS college,consumable.state AS state,consumable.remark AS remark,consuminfo.cno AS cno,consuminfo.cname AS cname,lab.id AS labid,lab.labname AS labname,staff.id AS staffid,staff.name AS name,college.id AS collegeid,college.collegename AS collegename FROM zz_consumable consumable  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_lab lab ON consumable.lab=lab.id  JOIN zz_staff staff ON consumable.duty=staff.id  JOIN zz_college college ON consumable.college=college.id WHERE collegename='计算机学院'  [ RunTime:0.000630s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.004863s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000269s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000146s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT consumable.id AS id,consumable.reserve AS reserve,consuminfo.cno AS cno,consuminfo.cname AS cname,staff.name AS name,college.collegename AS collegename FROM zz_consumable consumable  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_lab lab ON consumable.lab=lab.id  JOIN zz_staff staff ON consumable.duty=staff.id  JOIN zz_college college ON consumable.college=college.id WHERE collegename='计算机学院' ORDER BY consumable.id desc LIMIT 0,10   [ RunTime:0.000489s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: self1 BaseAction.class.php 第 280 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: self2 BaseAction.class.php 第 291 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: self3 BaseAction.class.php 第 302 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: loanreturn BaseAction.class.php 第 313 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: lookgrade BaseAction.class.php 第 319 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: addgrade BaseAction.class.php 第 326 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: add BaseAction.class.php 第 333 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: return BaseAction.class.php 第 339 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: dl BaseAction.class.php 第 346 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: look BaseAction.class.php 第 352 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: ok BaseAction.class.php 第 367 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001034s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001093s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001701s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001750s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ContentReplace Behavior [ RunTime:0.000589s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run TokenBuild Behavior [ RunTime:0.000523s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000492s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000580s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002337s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000639s ]
+[ 2014-04-26T11:37:42+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000711s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run CheckRoute Behavior [ RunTime:0.000942s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001022s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000571s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000501s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001156s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: option ConsumAction.class.php 第 253 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SHOW COLUMNS FROM `zz_consumablenote` [ RunTime:0.004226s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SHOW COLUMNS FROM `zz_consumable` [ RunTime:0.003875s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.003998s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.004427s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SELECT consumablenote.id AS id,consumablenote.conid AS conid,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.type AS type,consumablenote.remark AS remark,consumable.cid AS cid,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.id AS staffid,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=2  [ RunTime:0.000825s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.004544s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000270s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000152s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | SQL: SELECT consumablenote.id AS id,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.remark AS remark,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=2 ORDER BY consumablenote.id desc LIMIT 0,10   [ RunTime:0.000528s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001044s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001108s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run ParseTemplate Behavior [ RunTime:0.002089s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.002137s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run ContentReplace Behavior [ RunTime:0.000936s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run TokenBuild Behavior [ RunTime:0.000608s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000409s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000571s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002730s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000740s ]
+[ 2014-04-26T11:46:27+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=2 | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000822s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run CheckRoute Behavior [ RunTime:0.000657s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000748s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000455s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000425s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000977s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: option ConsumAction.class.php 第 253 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consumablenote` [ RunTime:0.006112s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consumable` [ RunTime:0.006473s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.010400s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.009393s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT consumablenote.id AS id,consumablenote.conid AS conid,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.type AS type,consumablenote.remark AS remark,consumable.cid AS cid,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.id AS staffid,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=1  [ RunTime:0.000981s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.008154s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.002462s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000542s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT consumablenote.id AS id,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.remark AS remark,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=1 ORDER BY consumablenote.id desc LIMIT 0,10   [ RunTime:0.001073s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000791s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000887s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ParseTemplate Behavior [ RunTime:0.003461s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.003552s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ContentReplace Behavior [ RunTime:0.000796s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run TokenBuild Behavior [ RunTime:0.000488s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000494s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002311s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000683s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000792s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run CheckRoute Behavior [ RunTime:0.001071s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001215s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000769s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000542s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001445s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: option ConsumAction.class.php 第 253 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consumablenote` [ RunTime:0.005524s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consumable` [ RunTime:0.004603s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.007102s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.005428s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT consumablenote.id AS id,consumablenote.conid AS conid,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.type AS type,consumablenote.remark AS remark,consumable.cid AS cid,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.id AS staffid,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=1  [ RunTime:0.000593s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.006532s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000493s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000224s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT consumablenote.id AS id,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.remark AS remark,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=1 ORDER BY consumablenote.id desc LIMIT 0,10   [ RunTime:0.000935s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000780s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000868s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ParseTemplate Behavior [ RunTime:0.003337s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.003421s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ContentReplace Behavior [ RunTime:0.000895s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run TokenBuild Behavior [ RunTime:0.000659s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000660s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002880s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.001070s ]
+[ 2014-04-26T11:46:28+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.001243s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run CheckRoute Behavior [ RunTime:0.000670s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000759s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000450s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000380s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000915s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.005904s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT * FROM `zz_consuminfo`  [ RunTime:0.000357s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.003788s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000308s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000224s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | SQL: SELECT `id`,`cno`,`cname`,`prickle`,`brand` FROM `zz_consuminfo` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000240s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: self1 BaseAction.class.php 第 280 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: self2 BaseAction.class.php 第 291 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: self3 BaseAction.class.php 第 302 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: loanreturn BaseAction.class.php 第 313 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: lookgrade BaseAction.class.php 第 319 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: addgrade BaseAction.class.php 第 326 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: add BaseAction.class.php 第 333 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: return BaseAction.class.php 第 339 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: dl BaseAction.class.php 第 346 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: look BaseAction.class.php 第 352 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined index: ok BaseAction.class.php 第 367 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000593s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000651s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ParseTemplate Behavior [ RunTime:0.002838s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.002920s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ContentReplace Behavior [ RunTime:0.000883s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run TokenBuild Behavior [ RunTime:0.000600s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000463s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002445s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000576s ]
+[ 2014-04-26T11:46:31+08:00 ] /zzadmin/admin.php/Consum/showconsuminfo | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000674s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run CheckRoute Behavior [ RunTime:0.000631s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000716s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000500s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000408s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000997s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000580s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000666s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000933s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.000988s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run ContentReplace Behavior [ RunTime:0.000396s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run TokenBuild Behavior [ RunTime:0.000406s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000245s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000414s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001610s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000506s ]
+[ 2014-04-26T11:46:32+08:00 ] /zzadmin/admin.php/Consum/addconsuminfo?aa=show | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000591s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run CheckRoute Behavior [ RunTime:0.001638s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001791s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000922s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000544s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001630s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_consumable` [ RunTime:0.004972s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.005123s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_lab` [ RunTime:0.004170s ]
+[ 2014-04-26T11:46:33+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.003966s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_college` [ RunTime:0.004991s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT consumable.id AS id,consumable.cid AS cid,consumable.reserve AS reserve,consumable.sum AS sum,consumable.college AS college,consumable.state AS state,consumable.remark AS remark,consuminfo.cno AS cno,consuminfo.cname AS cname,lab.id AS labid,lab.labname AS labname,staff.id AS staffid,staff.name AS name,college.id AS collegeid,college.collegename AS collegename FROM zz_consumable consumable  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_lab lab ON consumable.lab=lab.id  JOIN zz_staff staff ON consumable.duty=staff.id  JOIN zz_college college ON consumable.college=college.id WHERE collegename='计算机学院'  [ RunTime:0.000606s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.004515s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000373s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000238s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | SQL: SELECT consumable.id AS id,consumable.reserve AS reserve,consuminfo.cno AS cno,consuminfo.cname AS cname,staff.name AS name,college.collegename AS collegename FROM zz_consumable consumable  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_lab lab ON consumable.lab=lab.id  JOIN zz_staff staff ON consumable.duty=staff.id  JOIN zz_college college ON consumable.college=college.id WHERE collegename='计算机学院' ORDER BY consumable.id desc LIMIT 0,10   [ RunTime:0.000616s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: self1 BaseAction.class.php 第 280 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: self2 BaseAction.class.php 第 291 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: self3 BaseAction.class.php 第 302 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: loanreturn BaseAction.class.php 第 313 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: lookgrade BaseAction.class.php 第 319 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: addgrade BaseAction.class.php 第 326 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: add BaseAction.class.php 第 333 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: return BaseAction.class.php 第 339 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: dl BaseAction.class.php 第 346 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: look BaseAction.class.php 第 352 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined index: ok BaseAction.class.php 第 367 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001052s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001113s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001689s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001738s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ContentReplace Behavior [ RunTime:0.000825s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run TokenBuild Behavior [ RunTime:0.000781s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000493s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000672s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002997s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000892s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/showconsumable | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.001001s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run CheckRoute Behavior [ RunTime:0.001004s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001101s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000648s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000539s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001285s ]
+[ 2014-04-26T11:46:34+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.006824s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SELECT * FROM `zz_consuminfo`  [ RunTime:0.000326s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SHOW COLUMNS FROM `zz_lab` [ RunTime:0.003779s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SELECT * FROM `zz_lab`  [ RunTime:0.000229s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.004320s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SELECT * FROM `zz_staff`  [ RunTime:0.000432s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SHOW COLUMNS FROM `zz_college` [ RunTime:0.004429s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | SQL: SELECT * FROM `zz_college`  [ RunTime:0.000231s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000911s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000977s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001007s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001063s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run ContentReplace Behavior [ RunTime:0.000523s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run TokenBuild Behavior [ RunTime:0.000541s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000370s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000564s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002142s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000783s ]
+[ 2014-04-26T11:46:35+08:00 ] /zzadmin/admin.php/Consum/addconsumable?aa=show | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000893s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ route_check ] --START--
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run CheckRoute Behavior [ RunTime:0.001013s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001136s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ app_begin ] --START--
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000689s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000528s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001342s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 407 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: option ConsumAction.class.php 第 253 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consumablenote` [ RunTime:0.004271s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consumable` [ RunTime:0.003790s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_consuminfo` [ RunTime:0.003633s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.005908s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT consumablenote.id AS id,consumablenote.conid AS conid,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.type AS type,consumablenote.remark AS remark,consumable.cid AS cid,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.id AS staffid,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=1  [ RunTime:0.000559s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.003715s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='PAGECOUNT' LIMIT 1   [ RunTime:0.000233s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT * FROM `zz_conf` WHERE conf_name='SUB_SIZE' LIMIT 1   [ RunTime:0.000148s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | SQL: SELECT consumablenote.id AS id,consumablenote.amount AS amount,consumablenote.time AS time,consumablenote.remark AS remark,consuminfo.cno AS cno,consuminfo.cname AS cname,consuminfo.brand AS brand,staff.name AS name FROM zz_consumablenote consumablenote  JOIN zz_consumable consumable ON consumablenote.conid=consumable.id  JOIN zz_consuminfo consuminfo ON consumable.cid=consuminfo.id  JOIN zz_staff staff ON consumable.duty=staff.id WHERE consumablenote.type=1 ORDER BY consumablenote.id desc LIMIT 0,10   [ RunTime:0.000538s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_template ] --START--
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000593s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000654s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_parse ] --START--
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: classid c82986329629546325e352c3e6b1524a.php 第 539 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: classtype c82986329629546325e352c3e6b1524a.php 第 546 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 593 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 594 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: select c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: otherform c82986329629546325e352c3e6b1524a.php 第 601 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: search c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: type c82986329629546325e352c3e6b1524a.php 第 602 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report c82986329629546325e352c3e6b1524a.php 第 641 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | NOTIC: [8] Undefined variable: notify_report_teacher c82986329629546325e352c3e6b1524a.php 第 642 行.
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ParseTemplate Behavior [ RunTime:0.002173s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.002220s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_filter ] --START--
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ContentReplace Behavior [ RunTime:0.000896s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run TokenBuild Behavior [ RunTime:0.000696s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000635s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002865s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_end ] --START--
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000646s ]
+[ 2014-04-26T11:46:36+08:00 ] /zzadmin/admin.php/Consum/showconsumablenote?type=1 | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000742s ]

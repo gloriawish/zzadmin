@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+
+<link rel="stylesheet" href="{$Think.APP_TMPL_PATH}/Index/resources/css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{$Think.APP_TMPL_PATH}/Index/resources/css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{$Think.APP_TMPL_PATH}/Index/resources/css/themes/base/jquery.ui.all.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{$Think.APP_TMPL_PATH}/Index/resources/css/invalid.css" type="text/css" media="screen" />
+<script type="text/javascript" src="{$Think.PUBLICPATH}/uploadify/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="{$Think.PUBLICPATH}/js/simpla.jquery.configuration.js"></script>
+
+</head>
+<body id="login">
+<div id="login-wrapper" class="png_bg">
+  <div id="login-top">
+    <h1>计算机学院实验室管理系统登陆</h1>
+    <!-- Logo (221px width) -->
+    <a href="###"><img id="logo" src="{$Think.APP_TMPL_PATH}/Index/resources/images/logo.png" alt="Simpla Admin logo" /></a> </div>
+  <!-- End #logn-top -->
+  <div id="login-content">
+    <form action="__APP__/Index/login" method="post">
+      <div class="notification information png_bg">
+        <div> 请输入用户名密码 </div>
+      </div>
+      <p>
+        <label>用户名/学号</label>
+        <input class="text-input" name="username" type="text" />
+      </p>
+      <div class="clear"></div>
+      <p>
+        <label>密码</label>
+        <input class="text-input" name="userpass" type="password" />
+      </p>
+      <div class="clear"></div>
+      
+      <div class="clear"></div>
+      <p>
+        <input class="button" type="submit" value="Sign In" />
+      </p>
+    </form>
+  </div>
+  <!-- End #login-content -->
+</div>
+<!-- End #login-wrapper -->
+</body>
+</html>

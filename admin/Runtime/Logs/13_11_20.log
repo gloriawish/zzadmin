@@ -1,0 +1,356 @@
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.015909s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.016043s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000927s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000891s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001957s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.032188s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.032343s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.029063s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.029197s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000786s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000789s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000393s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000550s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002711s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000597s ]
+[ 2013-11-20T22:37:15+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000653s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001203s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001308s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000583s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001363s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001040s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001133s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001144s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001208s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000567s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000628s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000431s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000679s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002475s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000592s ]
+[ 2013-11-20T22:52:10+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000653s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run CheckRoute Behavior [ RunTime:0.001066s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001178s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000520s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001259s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | SQL: SHOW COLUMNS FROM `zz_user` [ RunTime:0.005871s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | SQL: SHOW COLUMNS FROM `zz_stu` [ RunTime:0.004911s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | SQL: SELECT * FROM `zz_user` WHERE username='pan' LIMIT 1   [ RunTime:0.000533s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000670s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000753s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001060s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001136s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ContentReplace Behavior [ RunTime:0.000448s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run TokenBuild Behavior [ RunTime:0.000479s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000339s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000566s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002033s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000596s ]
+[ 2013-11-20T22:52:17+08:00 ] /zzadmin/admin.php/Index/login | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000669s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run CheckRoute Behavior [ RunTime:0.001045s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001138s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000518s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000445s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001066s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | SQL: SHOW COLUMNS FROM `zz_conf` [ RunTime:0.003708s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_conf` WHERE conf_name='THEME' LIMIT 1   [ RunTime:0.000381s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | SQL: SELECT * FROM `zz_conf` WHERE conf_name='THEME' LIMIT 1   [ RunTime:0.000232s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000685s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000748s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: username 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: lasttime 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: count 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | NOTIC: [8] Undefined variable: flag 4c18d5952d0dbf1eedb8a1ec796fa788.php 第 22 行.
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ParseTemplate Behavior [ RunTime:0.009599s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.009663s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ContentReplace Behavior [ RunTime:0.000616s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run TokenBuild Behavior [ RunTime:0.000394s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000255s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000432s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001859s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000462s ]
+[ 2013-11-20T22:52:18+08:00 ] /zzadmin/admin.php/Index/index | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000530s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run CheckRoute Behavior [ RunTime:0.001409s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001542s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000855s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000729s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001724s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.005886s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SELECT * FROM `zz_staff`  [ RunTime:0.000452s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SHOW COLUMNS FROM `zz_role` [ RunTime:0.005395s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SELECT * FROM `zz_role`  [ RunTime:0.000368s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000891s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000960s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000989s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001046s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ContentReplace Behavior [ RunTime:0.000510s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run TokenBuild Behavior [ RunTime:0.000535s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000361s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000533s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002087s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000595s ]
+[ 2013-11-20T22:52:20+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000670s ]
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run CheckRoute Behavior [ RunTime:0.001041s ]
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001141s ]
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000582s ]
+[ 2013-11-20T22:52:21+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001352s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SHOW COLUMNS FROM `zz_title` [ RunTime:0.004054s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SELECT * FROM `zz_title`  [ RunTime:0.000309s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SHOW COLUMNS FROM `zz_job` [ RunTime:0.003608s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SELECT * FROM `zz_job`  [ RunTime:0.000238s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SHOW COLUMNS FROM `zz_major` [ RunTime:0.003512s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SELECT * FROM `zz_major`  [ RunTime:0.000256s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SHOW COLUMNS FROM `zz_college` [ RunTime:0.003666s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | SQL: SELECT * FROM `zz_college`  [ RunTime:0.000265s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000889s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000957s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000993s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001048s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run ContentReplace Behavior [ RunTime:0.000515s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run TokenBuild Behavior [ RunTime:0.000538s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000363s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000536s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002098s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000799s ]
+[ 2013-11-20T22:52:22+08:00 ] /zzadmin/admin.php/Staff/addstaff?aa=show | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000897s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run CheckRoute Behavior [ RunTime:0.001050s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001143s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000558s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001334s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SHOW COLUMNS FROM `zz_staff` [ RunTime:0.004053s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SELECT * FROM `zz_staff`  [ RunTime:0.000565s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SHOW COLUMNS FROM `zz_role` [ RunTime:0.004971s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | SQL: SELECT * FROM `zz_role`  [ RunTime:0.000270s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000882s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000948s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000989s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001046s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ContentReplace Behavior [ RunTime:0.000514s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run TokenBuild Behavior [ RunTime:0.000836s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000434s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002809s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000823s ]
+[ 2013-11-20T22:52:23+08:00 ] /zzadmin/admin.php/User/adduser?aa=show | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000920s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001017s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001108s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000571s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000492s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001143s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000868s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000950s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000957s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001013s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000487s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000524s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000460s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000578s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002200s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000545s ]
+[ 2013-11-20T23:10:06+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000600s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001525s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001686s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000994s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000605s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001747s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000483s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000570s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000771s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.000829s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000369s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000398s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000239s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000429s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001578s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000393s ]
+[ 2013-11-20T23:10:27+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000445s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.000794s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.000884s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000451s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000399s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.000932s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000762s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000836s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000835s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.000890s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000363s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000393s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000238s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000415s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001550s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000380s ]
+[ 2013-11-20T23:11:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000430s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001451s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001589s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000682s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001673s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000760s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000844s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000845s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.000900s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000363s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000394s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000239s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000414s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.001551s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000378s ]
+[ 2013-11-20T23:11:19+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000428s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001355s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001482s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000700s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000520s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001325s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000859s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000939s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001139s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001237s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000716s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000532s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000361s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000544s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002317s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000561s ]
+[ 2013-11-20T23:14:00+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000617s ]
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001816s ]
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002057s ]
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000981s ]
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000894s ]
+[ 2013-11-20T23:14:32+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002054s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003293s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003467s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.002223s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.002393s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.001450s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.001307s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000750s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.001574s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.005864s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.001329s ]
+[ 2013-11-20T23:14:33+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.001503s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.001197s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001287s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000922s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000848s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001852s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.001391s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.001463s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.001618s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001672s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.001352s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000881s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000553s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000785s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.003758s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000835s ]
+[ 2013-11-20T23:14:36+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000887s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --START--
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckRoute Behavior [ RunTime:0.000959s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001047s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --START--
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000604s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000495s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001185s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --START--
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run LocationTemplate Behavior [ RunTime:0.000897s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.000985s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --START--
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ParseTemplate Behavior [ RunTime:0.000949s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.001004s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --START--
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ContentReplace Behavior [ RunTime:0.000486s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run TokenBuild Behavior [ RunTime:0.000536s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000368s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000547s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002079s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --START--
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.000507s ]
+[ 2013-11-20T23:15:01+08:00 ] /zzadmin/admin.php/Index/adminlogin | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.000558s ]
